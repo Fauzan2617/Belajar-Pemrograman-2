@@ -1,0 +1,20 @@
+class hero:
+    def __init__(self,name,health) -> None:
+        self.nama = name
+        self.health = health
+        
+    def info(self):
+        print("{} Health nya adalah = {}".format(self.nama,self.health))
+        
+class herostreaght(hero):
+    def __init__(self, name, health) -> None:
+        super().__init__(name, health)
+        super().info()
+        
+class heromage(hero):
+    def __init__(self, name, health) -> None:
+        super().__init__(name, health)
+        super().info()
+
+dwi = herostreaght('dwi',100)
+siti = heromage('siti',100)
