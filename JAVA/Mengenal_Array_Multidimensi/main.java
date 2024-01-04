@@ -50,7 +50,6 @@ public class main {
             System.out.print("[");
             for (int angka : baris) {
                 System.out.print(angka + ",");
-
             }
             System.out.print("]\n");
         }

@@ -8,6 +8,8 @@ class hero:
         
 class herostreaght(hero):
     def __init__(self, name, health) -> None:
+        # super dibawah, mengambil dari class super (hero) diatas
+        # Pada super() dibawah ketika memanggil dan memasukkan data, data akan masuk ke class SUPER (class hero)
         super().__init__(name, health)
         super().info()
         
