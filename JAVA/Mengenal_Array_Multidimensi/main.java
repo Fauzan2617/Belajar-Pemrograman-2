@@ -35,8 +35,7 @@ public class main {
         System.out.println(Arrays.toString(view));
     }
 
-    private static void viewarray2D(int[][] view) {
-        // MENAMPILKAN MENGGUNAKAN 2D FOR
+    private static void viewarray2D(int[][] view) {        // MENAMPILKAN MENGGUNAKAN 2D FOR
         // for(int i = 0 ; i < array2D2.length; i++){
         // System.out.print("[");
         // for(int k = 0; k < array2D2[i].length; k++){
