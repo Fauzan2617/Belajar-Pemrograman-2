@@ -39,7 +39,7 @@ class main {
     private static void bubblesortdouble(double[] bilangan) {
         // Tampilkan sebelum
         System.out.println("Data sebelum di sort");
-        System.err.println(Arrays.toString(bilangan));
+        System.out.println(Arrays.toString(bilangan));
 
         // logic bubblesort
         for (int i = 0; i < bilangan.length; i++) {
