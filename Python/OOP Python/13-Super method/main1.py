@@ -12,3 +12,4 @@ class magic(hero):
         super().info()
 
 siti = magic("siti",100)
+siti.info()
