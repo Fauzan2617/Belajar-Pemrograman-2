@@ -1,7 +1,7 @@
 class Hero:
 
 	#private class variabel
-	__jumlah = 0;
+	__jumlah = 0
 
 	def __init__(self,name):
 		self.__name = name
@@ -20,6 +20,7 @@ class Hero:
 	def getJumlah2():
 		return Hero.__jumlah
 
+	# Menempel ke class doang classmethod
 	@classmethod
 	def getJumlah3(cls):
 		return cls.__jumlah

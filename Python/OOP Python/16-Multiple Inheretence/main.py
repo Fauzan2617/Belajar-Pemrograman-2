@@ -7,7 +7,9 @@ class A:
 class B:
     def method_B(self):
         print("Ini adalah method B")
-        
+
+# Dibawah ini dia adalah multiple Ihretence
+# Menerima dari class A dan B
 class sesuatu(A,B):
     pass
 
