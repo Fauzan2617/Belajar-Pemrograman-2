@@ -30,7 +30,7 @@ class hero:
         self.__armor = None
 
 print("\n MERUBAH INFO")
-dwi = hero("Dwi",100,10)
+dwi = hero("Dwi",100,10) 
 print(dwi.info)
 dwi.name = "siti"
 print(dwi.info)

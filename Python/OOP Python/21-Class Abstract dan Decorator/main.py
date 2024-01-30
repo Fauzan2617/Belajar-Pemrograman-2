@@ -28,9 +28,5 @@ class PushButton(Button):
 	def link(self):
 		return self.__link	
 
-
-
 tombol1 = PushButton("www.kelasterbuka.id")
-tombol1.click()	
-
-
+tombol1.click()

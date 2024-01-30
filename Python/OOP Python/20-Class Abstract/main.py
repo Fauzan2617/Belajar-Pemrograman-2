@@ -3,12 +3,11 @@
 # abc =  Abstract base class
 from abc import ABC,abstractmethod
 
-
-#ABC dimasukan pada parameter class pertama/Super Class
+# ABC dimasukan pada parameter class pertama/Super Class
 class button(ABC):
     
-#Lalu method click diberikan @abstractmethod agar dia menjadi fungsi abstract
-#Maka untuk class yang mewarisi class super harus ada method yang sama dari class super (WAJIB) 
+# Lalu method click diberikan @abstractmethod agar dia menjadi fungsi abstract
+# Maka untuk class yang mewarisi class super harus ada method yang sama dari class super (WAJIB) 
     @abstractmethod
     def click(self):
         pass
