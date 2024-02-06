@@ -10,10 +10,10 @@ class B(A):
 
 class C(A):
     def show(self):
-        print("Ini ada shofinfo class B")
+        print("Ini ada show info class B")
 
 class D(B,C):
     pass
 
-objek = C()
+objek = D()
 objek.show()

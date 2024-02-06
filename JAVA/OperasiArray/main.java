@@ -3,9 +3,10 @@ package OperasiArray;
 import java.util.Arrays;
 
 public class main {
-    
+
     public static void main(String[] args) {
     
+         System.out.println();
     int[] Arrayangka1 = {1,2,3,4,5};
 
     // MERUBAH ARRAY KE STRING

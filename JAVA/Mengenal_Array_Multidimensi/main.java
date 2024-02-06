@@ -44,6 +44,13 @@ public class main {
         // System.out.print("]\n");
         // }
 
+        for(int i = 0;i< viewarray2D.length;i++){
+            System.out.print("[");
+            for(int j = 0;j<viewarray2D[1].length;j++){
+
+            }
+        }
+
         // MENAMPILKKAN MENGGUNAKAN 2D FOREACH
         for (int[] baris : view) {
             System.out.print("[");

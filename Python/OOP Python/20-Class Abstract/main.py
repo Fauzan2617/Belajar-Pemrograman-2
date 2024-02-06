@@ -1,3 +1,6 @@
+# Abstrack method memaksa si kelas pewaris untuk mengikuti  
+
+
 # Membuat class abstrack
 # Kita memanggil Abstract dengan import ABC
 # abc =  Abstract base class
