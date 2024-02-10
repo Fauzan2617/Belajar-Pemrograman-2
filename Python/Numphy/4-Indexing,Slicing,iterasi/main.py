@@ -1,7 +1,7 @@
 import numpy as np
 
 a = np.arange(10)**2
-# Mengambil Nilai
+# Mengambil Nilai berdasarkan index
 print("Elemen ke 1 dari adalah",a[1])
 print("Elemen ke 2 dari a adalah",a[3])
 

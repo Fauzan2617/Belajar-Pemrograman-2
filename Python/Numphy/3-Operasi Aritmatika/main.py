@@ -22,7 +22,7 @@ hasil_perkalian = anp*bnp
 print(hasil_perkalian)
 
 # Pembagian
-hasil_pembagian = anp*bnp
+hasil_pembagian = anp/bnp
 print(hasil_pembagian)
 
 # Kuadrat
