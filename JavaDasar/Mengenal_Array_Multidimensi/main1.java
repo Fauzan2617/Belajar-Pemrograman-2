@@ -37,7 +37,6 @@ public class main1 {
             System.out.print("[");
             for(int kolom : baris){
                 System.out.print(kolom + ',');
-
             }
             System.out.print("]");
         }

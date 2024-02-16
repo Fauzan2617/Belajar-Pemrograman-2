@@ -6,7 +6,7 @@ public class main {
 
     public static void main(String[] args) {
     
-         System.out.println();
+        System.out.println();
     int[] Arrayangka1 = {1,2,3,4,5};
 
     // MERUBAH ARRAY KE STRING
@@ -47,7 +47,7 @@ public class main {
     int[] arrayAngka7 = {1,2,3,4,5,6};
 
     System.out.println("MEMBANDINGKAN DUA ARRAY DENGAN FITUR equals");
-    System.out.println( Arrays.equals(arrayAngka6, arrayAngka7));
+    System.out.println(Arrays.equals(arrayAngka6, arrayAngka7));
 
     if (Arrays.equals(arrayAngka6, arrayAngka7)) {
         System.out.println("Array ini sama");
