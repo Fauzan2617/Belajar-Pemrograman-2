@@ -40,7 +40,7 @@ print("data = ", data_float, ",type =",type(data_float))
 
 ## STRING
 print("====STRING====")
-data_str = "10";
+data_str = "10"
 print("data = ", data_str, ",type =",type(data_str))
 
 data_int    = int(data_str) # string harus angka

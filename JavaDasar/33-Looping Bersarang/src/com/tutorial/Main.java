@@ -27,10 +27,10 @@ public class Main {
 
         System.out.print("\n");
 
-        for(int i = 0; i < 5; i++){
-            for(int j = 0; j < 5; j++){
+        for(int i = 0; i < 4; i++){
+            for(int j = 0; j < 4; j++){
                 System.out.print("* ");
-                if ( (i+j) == 4){
+                if ( (i+j) == 3){
                     break;
                 }
             }

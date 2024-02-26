@@ -51,7 +51,7 @@ print("ASCII number dari spasi : " + str(ascii_code))
 data = 117
 print("Character dari ascii code 117 : " + chr(data))
 
-# 4. operator dalam bentuk method
+# 4. operator dalam bentuk method``
 
 data = "otong surotong pararotong"
 jumlah = data.count("o")

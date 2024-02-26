@@ -19,7 +19,7 @@ public class Main {
         f_n_1 = 1;
         f_n = 1;
 
-        for(int i = 1; i <= n; i++){
+        for(int i = 1; i < n; i++){
             System.out.println("nilai ke - "+ i + " adalah " + f_n);
             f_n = f_n_1 + f_n_2;
             f_n_2 = f_n_1;

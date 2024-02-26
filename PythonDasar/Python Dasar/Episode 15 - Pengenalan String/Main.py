@@ -1,3 +1,5 @@
+
+
 data = "ini adalah string"
 print(data)
 print(type(data))
@@ -19,8 +21,7 @@ print('"Halo, apa kabar?"')
 print("'Halo, apa kabar?'")
 print("ini adalah hari jum'at")
 
-# 2. Menggunakan tanda \
-
+# 2. Menggunakan tanda \ atau Escape Karakter
 # membuat tanda ' menjadi string
 print('mari shalat jum\'at')
 print('g\'day, isn\'t it?')

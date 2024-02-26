@@ -66,4 +66,7 @@ while True:
     if isContinue == "n":
         break
 
+while True:
+    header()
+    LEBAR,PANJANG
 print("Program selesai, terima kasih")
