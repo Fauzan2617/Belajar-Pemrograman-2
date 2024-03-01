@@ -22,10 +22,12 @@ print(f"address b = {hex(id(b))}")
 
 print("membuat list c dengan a.copy()")
 c = a.copy() # full duplikat / data baru
+d = a.copy()
 
 print(f"address a = {hex(id(a))}")
 print(f"address b = {hex(id(b))}")
 print(f"address c = {hex(id(c))}")
+print(f"address d = {hex(id(d))}")
 
 print(f"a = {a}")
 print(f"b = {b}")

@@ -7,6 +7,9 @@ salam = "bro!"
 print("normal " + salam)
 salam = salam.upper()
 print("upper " + salam)
+salam1 = "Haloo Bro"
+ucaapan = salam1.upper()
+print (ucaapan)
 
 # merubah semua ke lower case
 alay = "aKu KeCe AbieeZZZ"
@@ -31,23 +34,38 @@ print(salam + " is upper? " + str(apakah_upper))
 # isspace() <- apakah isinya spasi, tab dan enter (newline \n)
 # istitle() <- huruf pertama setiap kata upper case
 
-judul = "It Is Okay To Not Be Orkay"
+# Apakah semua huruf awal dari kalimat adalah kapital
+# Jika semua kapital maka TRUE
+judul = "It Is Okay To Not Be orkay"
 cek_judul = judul.istitle()
 print(judul + " is title? " + str(cek_judul))
 
-# startwith() dan endwith() <-- keren
 
+judul1 = "Buku Panduan Berkemah Di Gunung"
+cek1 = judul1.istitle()
+print (judul1 + str(cek1))
+
+
+
+# startwith() dan endwith() <-- keren
+# Mengecek kalimat dalam variable ada di posisi mana
 cek_start = "Sangjangnim Oppa".startswith("Sangjangnim")
 print("start " + str(cek_start))
 cek_end = "Sangjangnim Oppak".endswith("Oppak")
 print("end " + str(cek_end))
 
-# join() dan split() <-- buat orang males
+cekstart = "Halo Fauzan".startswith("Halo")
+print("Halo" + str(cekstart))
 
+# join() dan split() <-- buat orang males
+# Mengisi di bagian koma
 pisah = ['aku','sayang','kamu']
 gabungan = ' ehm '.join(pisah)
 print(pisah)
 print(gabungan)
+
+pisah1 = ['aku','ingin','kamu']
+gabungan = 'kontol' .join(pisah1)
 
 gabungan = "naik vespa keliling kota"
 pisah = gabungan.split()

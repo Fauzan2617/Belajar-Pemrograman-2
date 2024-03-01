@@ -6,6 +6,9 @@ nama = "ucup"
 format_str = f"hello {nama}"
 print(format_str)
 
+nama = "Fauzan"
+format = ("helo {}".format(nama))
+print (format)
 # boolean
 boolean = False
 format_str = f"boolean = {boolean}"

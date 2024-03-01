@@ -3,12 +3,14 @@ data_angka = [1,5,1,4,3,2,4,3,2,3,7,8,9,0]
 print(f"data angka = \n{data_angka}")
 
 # count data
-
+# Mengecek ada berapa angka di dalam variable
+jumlah_data_9 = data_angka.count(9)
 jumlah_data_4 = data_angka.count(4)
 jumlah_data_3 = data_angka.count(3)
 
-print(f"jumlah angka 4 = {jumlah_data_4}")
 print(f"jumlah angka 3 = {jumlah_data_3}")
+print(f"jumlah angka 4 = {jumlah_data_4}")
+print(f"jumlah angka 9 = {jumlah_data_9}")
 
 # ambil posisi data (index)
 
@@ -21,7 +23,7 @@ index_ujang = data.index("Ujang")
 print(f"index si Dudung = {index_dudung}")
 print(f"index si Ujang = {index_ujang}")
 
-# mengurutkan list
+# mengurutkan list berdasarkan ACII
 print(f"data angka sebelum sort = \n{data_angka}")
 data_angka.sort()
 print(f"data angka sort = \n{data_angka}")

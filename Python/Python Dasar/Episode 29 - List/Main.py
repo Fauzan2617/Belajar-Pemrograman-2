@@ -30,6 +30,8 @@ print(list_pake_for)
 list_pake_for_if = [i for i in range(0,10) if i != 5]
 print(list_pake_for_if)
 
+list_pake_for = [i**2 for i in range(0,20) if i != 10 ]
+
 list_pake_for_if = [i for i in range(0,10) if i%2 ==0]
 print(list_pake_for_if)
 
