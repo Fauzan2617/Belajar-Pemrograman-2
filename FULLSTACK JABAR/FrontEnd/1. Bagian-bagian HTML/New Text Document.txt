@@ -1,0 +1,16 @@
+HTML Diciptakan oleh (Tim Berners Lee), Beliau pula yang menciptakan:
+- HTTP
+- HTML
+- WWW
+- Web Browser
+- Web Server
+- Web Page
+
+Berners Lee pula menjadi direktur dari organisasi W3C, Bertugas untuk :
+- Menciptakan standar dan aturan untuk Web
+- Menciptakan tag-tag baru atau penghapusan untuk HTML,CSS DLL
+
+Sturuktur Front End:
+- HTML, diibaratkan sebagai manequin
+- CSS, Diibaratkan sebagai baju dll untuk menghiasi kepada manequin
+- Jacascript, Sebagai Otak untuk Web atau manequin

@@ -1,4 +1,5 @@
 package Node;
+
 public class LinkedList {
 	    node head;
 
@@ -22,7 +23,53 @@ public class LinkedList {
 	        last.next = newNode;
 	    }
 
-	    void tambahDiTengah(double data, int posisi) {
+		void hapusMid(int e)
+    {
+        node preNode = new node(0);
+        node tempNode;
+        int i;
+        boolean ketemu;
+        
+        if(head == null)
+        {
+            System.out.println("Elemen List Kosong");
+        }
+        else
+        {
+            ketemu = false;
+            i = 1;
+            tempNode = head;
+            while (tempNode.getNext() != null && !ketemu)
+            {
+                if(tempNode.getNilai() == e)
+                {
+                    ketemu = true;
+                }
+                else
+                {
+                    preNode = tempNode;
+                    tempNode = tempNode.getNext();
+                    i++;
+                }
+            }
+            if(ketemu == true)
+            {
+                if (i == 1)
+                    head = null;
+                else
+                {
+                    preNode.setNext(tempNode.getNext());
+                }
+            }
+        }
+    }
+
+	    private boolean isEmpty() {
+			// TODO Auto-generated method stub
+			throw new UnsupportedOperationException("Unimplemented method 'isEmpty'");
+		}
+
+		void tambahDiTengah(double data, int posisi) {
 	        node newNode = new node(data);
 	        if (posisi == 0) {
 	            newNode.next = head;
