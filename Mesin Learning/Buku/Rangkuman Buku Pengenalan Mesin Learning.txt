@@ -1,0 +1,38 @@
+Rangkuman Pembelajaran mesin Learning
+- BAB 1
+
+*Mesin Learning adalah sebuah pembelajaran mesin/Pengetahuan dari kumpulan data. Jadi termasuk pada bidang penelitian statistik.
+*Pada pembelajaran kecerdasan awal, sebuah sistem menggunakan aturan ‎(HANDCODED) keputusan yang terdiri dari "IF" & "Else"
+	Kelemahan (HANDCODED) : - Logika yang diperlukan khusus. Mengubah sistem sedikit mungkin perlu mengubah semua sistem
+				- Merancang sistem memerlukan sebuah pemahaman yang dalam bagi perancang
+
+# MASALAH YANG DAPAT DIPECAHKAN MESIN LEARNING
+ > ML yang diawasi 
+ Algoritma ML yang sukses yaitu algoritma yg mengotomatiskan proses pengambilan keputusan dengan menggeneralisasi dari contoh sebelumnya.
+ML yang belajar dari input/output disebut algoritma yang diawasi/ memberikan pengawasan kepada algoritma agar sesuai berdasarkan contoh yang mereka pelajari.
+
+ > ML yang tidak diawasi
+ Sebuah ML yang tidak akan bisa di prediksi outputnya apa. 
+
+
+# Mengetahui data anda tentang apa dan untuk apa 
+ Pahamai dahulu data anda untuk apa dan tentang apa. Sehingga bisa membuat algoritma ML yang efektif.
+ 	Sebelum membuat ML minimal menjawab pertanyaan dibawah :
+•
+Pertanyaan apa yang saya coba jawab? Apakah saya pikir data yang dikumpulkan dapat menjawab pertanyaan itu?
+•
+Apa cara terbaik untuk mengutarakan pertanyaan saya sebagai masalah pembelajaran mesin?
+•
+Sudahkah saya mengumpulkan cukup data untuk mewakili masalah yang ingin saya selesaikan?
+•
+Fitur data apa yang saya ekstrak, dan apakah ini akan memungkinkan prediksi yang tepat?
+•
+Bagaimana saya akan mengukur keberhasilan dalam aplikasi saya?
+•
+Bagaimana solusi pembelajaran mesin akan berinteraksi dengan bagian lain dari penelitian atau produk bisnis saya?
+
+
+# TOOLS DALAM ML
+ - Scikit-Learn
+ sebuah proyek open source, yang berisi algoritma-algoritma ML yang dijelaskan state-of-the-art.
+TERAKHIR BACA (HAL 26)

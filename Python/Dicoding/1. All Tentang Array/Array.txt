@@ -1,0 +1,15 @@
+MATERI ARRAY IN PYTHON
+
+Python tidak memiliki array namun memilliki List, List tidak harus bertipe data yang sama seperti array, namun bisa campur tipe data
+Contoh List: [1,'Python',True,1.0]
+
+Array memiliki arti "Sebuah kelompok besar yang terdiri dari beberapa hal atau orang" Artinya memiliki tipe data yang beragam
+
+- List dalam Python, memiliki 2 type :
+A. Linear (Struktur data yang elemen elemennya disusun dengan rapih atau berurutan)
+   Contoh: Array (Dalam Array semuanya memiliki indeks yang selalu dimulai dari 0)
+
+B. NonLinear adalah struktur data yang didalamnya tidak disusun secara linear atau tidak terusun
+
+* DEKLARASI ARRAY
+ - Setiap isi dari list/array python ditempatkan di memori yang berbeda

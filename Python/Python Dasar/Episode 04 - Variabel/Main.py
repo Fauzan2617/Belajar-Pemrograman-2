@@ -5,6 +5,15 @@ a = 10
 x = 5
 panjang = 1000
 
+# Membuat 3 variable dgn nilai sama sekaligus
+a=b=c = "halooo"
+print(a,b,c)
+
+# Mengambil nilai variable dari list
+list_buah = ["pepaya","semangka","melon"]
+x,y,z = list_buah
+print(x,y,z)
+
 # pemanggilan pertama
 print("Nilai a = ", a)
 print("Nilai x = ", x)
