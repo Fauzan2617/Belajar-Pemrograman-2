@@ -27,7 +27,7 @@ for peserta in list_peserta:
 
 # dengan reference
 
-list_copy = list_peserta.copy();
+list_copy = list_peserta.copy()
 print(f"peserta = {list_copy}")
 peserta_0[0] = "michael"
 print(f"peserta = {list_copy}")

@@ -18,6 +18,7 @@ print(f"teman-teman: {teman_teman}\n")
 print(f"friends: {friends}\n")
 
 # pop dictionary (berdasarkan key)
+# pop itu seperti cutting si value nya
 dataAsep = friends.pop("sep")
 print(f"data asep = {dataAsep}\n")
 print(f"friends = {friends}\n")

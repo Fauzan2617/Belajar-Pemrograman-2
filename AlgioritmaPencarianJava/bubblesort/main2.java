@@ -14,6 +14,8 @@ public class main2 {
             for (int j = 0; j < arraydata.length - 1; j++) {
                 if (arraydata[j] > arraydata[j + 1]) {
                     System.out.println("Pernyataan j Benar" + j);
+
+                    
                     int tampungan = arraydata[j];
                     arraydata[j] = arraydata[j + 1];
                     arraydata[j + 1] = tampungan;
