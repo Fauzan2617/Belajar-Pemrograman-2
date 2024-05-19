@@ -1,0 +1,46 @@
+.helo:link {
+    color: white;
+}
+
+.helo:hover {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.helo:active{
+    font-size: 50px;
+}
+
+.helo:visited{
+    color: blueviolet;
+}
+
+/* fitur untuk merubah style berdasarkan first child atau
+    elemen yang ada di dalam di atasnya */
+
+/* li:first-child { --- Memberi perubahan pada element pertama
+    color: blue;
+}
+li:last-child { <--- Memberi perubahan element yg terakhir
+    color: black;
+} */
+li:nth-child(2n) a{ /* Memberikan color berdasarkan request*/
+    color: blue;
+}
+
+
+/* BISA DI GABUNG JUGA */
+li:nth-child(5) a:hover {
+    color: black;
+    font-weight: 400;
+    font-size: 80px;
+}
+
+
+/* URUTAN KELAS KELAS CSS YG AKAN DI EKSEKUSI  
+    INLINE > ID > CLASS > TAG
+
+    Makin spesifik merujuk ke HTML yg ingin diberi style
+    maka makin MENANG atau BERHASIL
+*/

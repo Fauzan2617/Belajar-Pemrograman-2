@@ -1,0 +1,33 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Memberikan style dengan 2 sekaligus */
+ul,li{
+    color: aqua;
+    font-weight: bold;
+    text-align: left;
+}
+
+p{
+    word-spacing: 10px;
+    line-height: 15px;
+    letter-spacing: 5px;
+}
+
+/* Memberikan style dengan cara spesifik */
+ul li a{
+    color: brown;
+}
+
+/* Mmeberi color dengan cara selector
+    Class */
+.p1{
+    color: blue;
+}
+
+/* Mmeberi color dengan Selector 
+    id */
+#p2{
+    color: red;
+}

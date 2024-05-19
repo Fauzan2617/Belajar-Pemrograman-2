@@ -1,5 +1,4 @@
 package Node;
-import java.util.*;
 
 public class main {
 public static void main(String[] args) {
@@ -15,7 +14,7 @@ public static void main(String[] args) {
 
 	        // menampilkan hasil dari linkedlist yang sudah di tambahkan
 	        // di atas tadi
-			list.hapusMid(8);
+			// list.hapusMid(8);
 	        System.out.print("Elemen list: ");
 	        list.tampilkan();
 	    }

@@ -1,0 +1,19 @@
+a. Belajar Algoritma Decision three
+https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052
+
+b. Macam macam jenis algoritma regression (Data yang Continu)
+  https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/
+
+c.Dataset siap pakai untuk model ML
+  https://www.kaggle.com/dragonheir/logistic-regression
+
+d.Mempelajari lebih dalam LDA 
+  https://sebastianraschka.com/Articles/2014_python_lda.html
+
+e. LDA pada library scikit Learn
+  https://scikit-learn.org/stable/modules/lda_qda.html
+
+f. Teknik t-SNE
+   - https://lvdmaaten.github.io/tsne/ (Memahami lebih dalam pada laman pribadinya)
+   - https://www.oreilly.com/content/an-illustrated-introduction-to-the-t-sne-algorithm/ (Implementasi pada python)
+   - https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html (Implementasi pada library scikit-learn)

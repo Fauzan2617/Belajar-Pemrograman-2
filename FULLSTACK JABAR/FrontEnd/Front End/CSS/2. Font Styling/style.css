@@ -1,0 +1,9 @@
+p{
+    /* Font akan mencari font dari arial lalu ke kanan */
+    font-family: Arial, Helvetica, sans-serif; /* Jenis Font/ Family Font*/
+    font-size: 20; /* Ukuran huruf*/
+    font-weight: bold; /* Ketebalan Huruf*/
+    font-variant: normal; /* Variant dari huruf*/
+    font-style: italic; /* Style Huruf*/
+    line-height: 90%; /* Jarak atas bawah antara baris*/
+}

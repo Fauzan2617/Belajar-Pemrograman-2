@@ -1,0 +1,14 @@
+body{
+    background-color: blue; /* Background dengan warna*/
+    background-image: url(css.png);  /* Background dengan Gambar*/
+    background-repeat: no-repeat;  /* Mengatur Agar gambar tidak berulang dan berulang*/
+    background-position: center top; /* Mengatur posisi gambar berdasarkan x dan y (kartesius)*/
+    
+    /* Backgound dengan 1 lier/1 baris */
+    background: black url(css.png) center no-repeat;
+}
+
+p{
+    font-size: 30px;
+    color: #ffffff;
+}

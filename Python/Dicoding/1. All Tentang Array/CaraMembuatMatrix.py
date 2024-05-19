@@ -13,3 +13,5 @@ print(data_array)
 matriks = [[0 for j in range(4)]for i in range(3)]
 print(matriks)
 
+matriks2 = [[1 for j in range (5)] for i in range(8)]
+print(matriks2,"/n")

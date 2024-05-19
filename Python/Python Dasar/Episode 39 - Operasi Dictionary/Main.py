@@ -6,10 +6,12 @@ data_dict = {
 	"dung":"dudung surudung"
 }
 
-data_dict1 = {
+data_dict1 = {{
 	"dwi": "Dwi Putera",
 	"putera" : "Putera zan",
 	"Fauzan" : "Fauzan Dwi"
+},
+	"ada"
 }
 
 # panjang dictionary

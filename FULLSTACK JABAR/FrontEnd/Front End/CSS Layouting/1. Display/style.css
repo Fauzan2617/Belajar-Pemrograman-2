@@ -1,0 +1,15 @@
+/* Macam Macam Display di CSS
+ 1. Inline
+    - Kebanyakan Tag HTML defaultnya Inline
+    - Tidak akan menambah baris baru
+    - Tidak akan bisa di rubah tinggi dan lebarnya
+    - Style nya akan sebesar kontennya
+
+2. Inline - Block
+    - Dasarnya sama seperti Inline
+    - Namun bisa diubah tinggi dan lebarnya
+
+3. Block
+    - Mmebuat baris baru
+    - Harus mengatur lebar wajib
+*/

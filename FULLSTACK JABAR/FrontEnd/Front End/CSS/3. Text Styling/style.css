@@ -1,0 +1,34 @@
+p{
+    /* Macam macam cara memberi color */
+    color: #abcabc;
+    /* color: rgb(100,20,45); */
+    /* color: aqua; */
+
+    font-size: 30px;
+    font-weight: bold;
+
+    /* Mengatur posisi dari paragraf */
+    text-align: left;
+
+    /* Agar membuat kata awal pada paragraf spasi */
+    text-indent: 90px;
+
+    /* Mengatur jarak antar kata*/
+    word-spacing: 20px;
+
+    /* Mengatur jarak antar huruf */
+    letter-spacing: 40px;
+}
+
+a {
+    /* Macam macam memberi garis pada teks */
+    text-decoration: none;
+    /* text-decoration: underline; Bawah teks
+    text-decoration: line-through; Coret Teks
+    text-decoration: overline;  Atas Teks
+    */ 
+
+    /* Transform pada teks */
+    text-transform: uppercase;
+    /* text-transform: lowercase; huruf kecil   */
+}

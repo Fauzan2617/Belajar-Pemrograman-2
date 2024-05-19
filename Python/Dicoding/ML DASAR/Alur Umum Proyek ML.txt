@@ -1,0 +1,3 @@
+Alur Proyek ML
+
+1.Data Colecting (Pengumpulan Data) -->  Data Cleaning (Pembersihan Data) --> Data Processing (Data di proses pada environment)
