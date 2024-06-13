@@ -17,3 +17,8 @@ f. Teknik t-SNE
    - https://lvdmaaten.github.io/tsne/ (Memahami lebih dalam pada laman pribadinya)
    - https://www.oreilly.com/content/an-illustrated-introduction-to-the-t-sne-algorithm/ (Implementasi pada python)
    - https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html (Implementasi pada library scikit-learn)
+
+g. Bagaimana jalannya SVM Kernel
+   https://data-flair.training/blogs/svm-kernel-functions/
+
+H. 
